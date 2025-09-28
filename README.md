@@ -28,3 +28,5 @@ abstract class Config
 ## Запуск проекта
 
 Откройте в браузере: `http://localhost/Quest5/`
+
+Для работы должен быть установлен composer.
