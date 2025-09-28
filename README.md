@@ -24,21 +24,6 @@ abstract class Config
 ?>
 ```
 
-3. Заполните параметры подключения к вашей базе данных:
-
-```php
-protected $server = "localhost"; // Обычно localhost
-protected $user = "ваш_пользователь"; 
-protected $db_password = "ваш_пароль";
-protected $db_name = "имя_вашей_базы_данных";
-```
-
-## Установка зависимостей
-
-```bash
-composer install
-```
-
 ## Запуск проекта
 
 Откройте в браузере: `http://localhost/Quest5/`
