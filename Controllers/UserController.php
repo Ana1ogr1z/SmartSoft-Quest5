@@ -67,7 +67,7 @@ class UserController extends Controller
      */
     public function insertAction(): void
     {
-        // Добавляем отладку
+
         error_log("POST data: " . print_r($_POST, true));
         
         $user = $this->getRecordedUser();
@@ -185,4 +185,5 @@ class UserController extends Controller
         return $this->user;
     }
 }
+
 ?>
