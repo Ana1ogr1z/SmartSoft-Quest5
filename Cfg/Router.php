@@ -67,7 +67,6 @@
 {
     $fullPath = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
     
-    // Для прямого доступа к index.php?route=...
     if (isset($_GET['route'])) {
         $this->path = $_GET['route'];
     } else {
@@ -157,4 +156,5 @@
         {
             return $this->route;
         }
+
     }
